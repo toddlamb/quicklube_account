@@ -11,7 +11,8 @@ def hello():
     """Return a friendly HTTP greeting."""
     return json.dumps({
         'message': 'hello world!!',
-        'purpose': 'testing updates'
+        'purpose': 'testing updates',
+        'testing': 'testing deployment'
     })
 
 
