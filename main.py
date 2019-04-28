@@ -12,7 +12,7 @@ def hello():
     return json.dumps({
         'message': 'hello world!!',
         'purpose': 'testing updates',
-        'testing': 'testing deployment'
+        'testing': 'testing deployment part 2'
     })
 
 
